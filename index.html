@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="heading">
+        <div class="head">
+            Weather Web Application
+        </div>
+    </div>
+    <div class="box-card">
+        <div class="search">
+            <input type="text" placeholder="Search City...">
+            <button1><img src="images/search-icon.png" class="icon-img"></button1>&nbsp;&nbsp;&nbsp;
+            <button2><img src="images/location.png" id="geo"></button2>&nbsp;&nbsp;&nbsp;
+            <select id="conversion-type">
+                <option value="select">select</option>
+                <option value="one">Celsius</option>
+                <option value="two">Fahrenheit</option>
+            </select>
+        </div>
+        <div class="error">
+            <p>Invalid City name </p>
+            <p>Please Recheck Your City Name</p>
+        </div>
+        <div class="weather">
+            <img src="images/clear.png" class="symbol-weather">
+            <h1 class="temp">21°c</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                        <div>
+                            <p class="wind">15 km/h</p>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="me">
+            <span><p>Name: R Abhiram</p></span>
+            <span><p>Email: rathnamalaabhiram9803@gmail.com</p></span>
+            <span><p>Contact No.: 9492726491</p></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
